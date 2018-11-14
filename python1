@@ -1,0 +1,99 @@
+import random
+# f1=random.randint(1,2)
+# if(f1==1):
+#     f1="左"
+# else:
+#     f1="右"
+# f2=random.randint(1,9)
+# f3=random.randint(1,6)
+# print("请%s侧%d排%d列同学回答问题"%(f1,f2,f3))
+#
+# a=input("请输入一个字符串")
+# a=list(a)
+# b=a[-1::-1]
+# if a==b:
+#     print("您所输入的字符串是回文字符串")
+# else:
+#     print("您所输入的字符串不是回文字符串")
+#
+# a,b=map(int,input("请输入日期:").split('/'))
+# if(a==1):
+#     print("这是2018年的第%d天"%(b))
+# elif(a==2):
+#     b=b+31
+#     print("这是2018年的第%d天"%(b))
+# elif(a==3):
+#     b=b+59
+#     print("这是2018年的第%d天"%(b))
+# elif(a==4):
+#     b=b+90
+#     print("这是2018年的第%d天"%(b))
+# elif(a==5):
+#     b=b+120
+#     print("这是2018年的第%d天"%(b))
+# elif(a==6):
+#     b=b+151
+#     print("这是2018年的第%d天"%(b))
+# elif(a==7):
+#     b=b+181
+#     print("这是2018年的第%d天"%(b))
+# elif(a==8):
+#     b=b+212
+#     print("这是2018年的第%d天"%(b))
+# elif(a==9):
+#     b=b+243
+#     print("这是2018年的第%d天"%(b))
+# elif(a==10):
+#     b=b+273
+#     print("这是2018年的第%d天"%(b))
+# elif(a==11):
+#     b=b+304
+#     print("这是2018年的第%d天"%(b))
+# elif(a==12):
+#     b=b+334
+#     print("这是2018年的第%d天"%(b))
+
+# start=1
+# while start<100000:
+#     a=temp0=start%2==1
+#     b=temp1=start%3==0
+#     c=temp2=start%4==1
+#     d=temp3=start%5==4
+#     e=temp4=start%6==3
+#     f=temp5=start%7==0
+#     g=temp6=start%8==1
+#     h=temp7=start%9==0
+#     if all((a,b,c,d,e,f,g,h)):
+#        print(start)
+#        break
+#     else:
+#          start=start+1
+#
+
+# import random
+# n=random.randint(2,9)
+# print(n)
+# l=[]
+# x=666%n
+# l.append(x)
+# y=666//n
+# while y!=0:
+#     x=y%n
+#     y=y//n
+#     l.append(x)
+# l.reverse()
+# for a in l:
+#     print(a,end='')
+
+
+lis=[]
+i=0
+n=10
+while i<n:
+    x=input()
+    lis.append(int(x))
+    i=i+1
+lis.sort()
+print(lis[8])
+
+print(min(-2,3,44))
